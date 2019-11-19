@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="navBar"
+  >
+    <h1>
+      I Tunes Search Engine
+    </h1>
+    <input
+      autoComplete="off"
+      name="artistName"
+      onChange={[Function]}
+      placeholder="Enter title here"
+    />
+    <select
+      className="typePick"
+      onChange={[Function]}
+    >
+       
+      <option
+        value="all"
+      >
+        all
+      </option>
+      <option
+        value="music"
+      >
+        music
+      </option>
+      <option
+        value="audio book"
+      >
+        audio book
+      </option>
+      <option
+        value="ebook"
+      >
+        ebook
+      </option>
+    </select>
+    <button
+      onClick={[Function]}
+    >
+      Search
+    </button>
+    <br />
+  </div>
+  <hr />
+</div>
+`;
